@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #081426;
+  color: white;
+}
+
+/* Header */
+.header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #1c2a40;
+}
+
+/* Logo + Text */
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid #4a8bff;
+}
+
+.status {
+  color: #00ff88;
+  font-size: 13px;
+}
+
+/* Card */
+.card {
+  margin: 20px;
+  padding: 30px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #2b6eff, #4a8bff);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Content */
+#content {
+  padding: 20px;
+}
+
+/* List style */
+#content ul {
+  padding-left: 18px;
+}
+
+#content li {
+  margin-bottom: 8px;
+  color: #cbd5e1;
+}
